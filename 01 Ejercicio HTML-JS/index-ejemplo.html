@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad de JavaScript</title>
+</head>
+<body>
+    <h1>Actividad de JavaScript</h1>
+
+    <!-- Ejercicio 1: Declaración de variables -->
+    <p>Ejercicio 1: Declaración de variables</p>
+    <button onclick="declararVariables()">Declarar Variables</button>
+
+    <!-- Ejercicio 2: Asignación de valores -->
+    <p>Ejercicio 2: Asignación de valores</p>
+    <button onclick="asignarValores()">Asignar Valores</button>
+
+    <!-- Ejercicio 3: Operaciones matemáticas -->
+    <p>Ejercicio 3: Operaciones matemáticas</p>
+    <button onclick="realizarOperaciones()">Realizar Operaciones</button>
+
+    <!-- Ejercicio 4: Manipulación de cadenas -->
+    <p>Ejercicio 4: Manipulación de cadenas</p>
+    <button onclick="manipularCadenas()">Manipular Cadenas</button>
+
+    <script>
+        // Ejercicio 1: Declaración de variables
+        function declararVariables() {
+            var numero1 = 5;
+            var numero2 = 10;
+            var resultado = numero1 + numero2;
+            alert("El resultado de la suma es: " + resultado);
+        }
+
+        // Ejercicio 2: Asignación de valores
+        function asignarValores() {
+            var x = 20;
+            var y = x;
+            alert("El valor de y es: " + y);
+        }
+
+        // Ejercicio 3: Operaciones matemáticas
+        function realizarOperaciones() {
+            var num1 = 25;
+            var num2 = 5;
+            var suma = num1 + num2;
+            var resta = num1 - num2;
+            var multiplicacion = num1 * num2;
+            var division = num1 / num2;
+            alert("Suma: " + suma + "\nResta: " + resta + "\nMultiplicación: " + multiplicacion + "\nDivisión: " + division);
+        }
+
+        // Ejercicio 4: Manipulación de cadenas
+        function manipularCadenas() {
+            var cadena1 = "Hola, ";
+            var cadena2 = "mundo!";
+            var mensaje = cadena1 + cadena2;
+            var longitud = mensaje.length;
+            alert("Mensaje: " + mensaje + "\nLongitud del mensaje: " + longitud);
+        }
+    </script>
+</body>
+</html>
