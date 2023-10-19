@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad de JavaScript</title>
+</head>
+<body>
+    <h1>Actividad de JavaScript</h1>
+
+    <!-- Ejercicio 1: Declaración de variables -->
+    <p>Ejercicio 1: Declaración de variables</p>
+    <button onclick="declararVariables()">Declarar Variables</button>
+
+    <!-- Ejercicio 2: Asignación de valores -->
+    <p>Ejercicio 2: Asignación de valores</p>
+    <button onclick="asignarValores()">Asignar Valores</button>
+
+    <!-- Ejercicio 3: Operaciones matemáticas -->
+    <p>Ejercicio 3: Operaciones matemáticas</p>
+    <button onclick="realizarOperaciones()">Realizar Operaciones</button>
+
+    <!-- Ejercicio 4: Manipulación de cadenas -->
+    <p>Ejercicio 4: Manipulación de cadenas</p>
+    <button onclick="manipularCadenas()">Manipular Cadenas</button>
+
+    <script>
+        // Ejercicio 1: Declaración de variables
+        // Instrucciones: Declara dos variables numéricas llamadas 'edad' y 'anioNacimiento'.
+        // Luego, calcula y muestra en un mensaje la edad actual basada en el año de nacimiento.
+        function declararVariables() {
+            // Tu código aquí
+            let edad = null;
+            let añonacimiento = 2005 ;
+            edad = 2023 - añonacimiento;
+            let resultado = edad;           
+            
+            alert("El resultado de la edad es: " + resultado); 
+        }
+
+        // Ejercicio 2: Asignación de valores
+        // Instrucciones: Completa la función para asignar el valor de 'x' a 'y' y luego muestra el valor de 'y'.
+        function asignarValores() {
+            var x = 15;
+            var y = null;
+            y = x;
+            alert("El valor de y es: " + y);
+
+            // Tu código aquí
+        }
+
+        // Ejercicio 3: Operaciones matemáticas
+        // Instrucciones: Completa la función para realizar las siguientes operaciones:
+        // Suma 'a' y 'b', resta 'b' de 'a', multiplica 'a' por 'b', y divide 'a' entre 'b'.
+        // Muestra los resultados en un mensaje.
+        function realizarOperaciones() {
+            let a = 50;
+            let b = 10;
+            let suma = a + b; // 60
+            let resta = b - a; // 10
+            let multiplicacion = a * b; // 500
+            let division = a / b; // 5
+            alert("Suma: " + suma + "\nResta: " + resta + "\nMultiplicación: " + multiplicacion + "\nDivisión: " + division);
+            // Tu código aquí
+        }
+
+        // Ejercicio 4: Manipulación de cadenas
+        // Instrucciones: Completa la función para construir un mensaje utilizando las variables 'nombre' y 'apellido'.
+        // Luego, muestra la longitud del mensaje y el primer carácter en el mensaje.
+        function manipularCadenas() {
+            let nombre = "Juan";
+            let apellido = "Pérez";
+            let mensaje = nombre + apellido;
+            let longitud = mensaje.length;
+            alert("Mensaje: " + mensaje + "\nlongitud del mensaje: " + longitud);
+            // Tu código aquí
+        }
+    </script>
+</body>
+</html>
