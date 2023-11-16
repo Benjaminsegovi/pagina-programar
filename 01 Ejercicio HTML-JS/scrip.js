@@ -29,25 +29,18 @@ if (temperatura < 0) {
   }
 
   let numero = 2;
-  
-    if (numero > 0 ) {
-      console.log("número es positivo"); 
-     } else if (numero < 0) {
-      console.log("El numero es negativo");
-     } else {
-        console.log("El numero es igual a cero");
-     }
-
-
-     let puntacion = 90;
-
-     if (puntacion >= 90) {
-        console.log("Excelente");
-     } else if (puntacion >= 70) {
-        console.log('Buen trabajo') 
-     } else {
-        console.log('Necesitas mejorar')
-     }
-
-     git config --global user.name "b.segovia.iccp@gmail.com"
-     git config user.name "Benjaminsegovi"
+if (numero > 0 ) {
+  console.log("número es positivo"); 
+} else if (numero < 0) {
+  console.log("El numero es negativo");
+} else {
+    console.log("El numero es igual a cero");
+}
+let puntacion = 90
+if (puntacion >= 90) {
+    console.log("Excelente");
+} else if (puntacion >= 70) {
+    console.log('Buen trabajo') 
+} else {
+    console.log('Necesitas mejorar')
+}
